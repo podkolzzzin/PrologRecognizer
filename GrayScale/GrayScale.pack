@@ -1,0 +1,19 @@
+﻿/*****************************************************************************
+
+                        Copyright (c) 2014 My Company
+
+******************************************************************************/
+
+#include @"GrayScale\GrayScale.ph"
+
+% privately used packages
+#include @"pfc\math\math.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"GrayScale\GrayScale.pro"

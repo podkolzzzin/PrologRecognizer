@@ -4,13 +4,13 @@
 
 ******************************************************************************/
 
-#requires @"Recognizer\Recognizer.pack"
+#requires @"GrayScale\GrayScale.pack"
 % publicly used packages
 #include @"pfc\gui\gdiplus\gdiplus.ph"
 #include @"pfc\core.ph"
 
 % exported interfaces
-#include @"Recognizer\Recognizer.i"
+#include @"GrayScale\GrayScale.i"
 
 % exported classes
-#include @"Recognizer\Recognizer.cl"
+#include @"GrayScale\GrayScale.cl"

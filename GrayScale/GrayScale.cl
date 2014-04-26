@@ -3,14 +3,9 @@
                         Copyright (c) 2014 My Company
 
 ******************************************************************************/
-
-implement recognizer
+class grayScale : grayScale
     open core
-facts
-    bitmap bmp.
-clauses
-    new(bitmap Bmp):-
-        bmp = Bmp.
-clauses
-    getBitmap()=bmp.
-end implement recognizer
+constructors
+    new: (bitmap Bmp).
+
+end class grayScale

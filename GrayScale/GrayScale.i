@@ -4,13 +4,12 @@
 
 ******************************************************************************/
 
-implement recognizer
+interface grayScale
     open core
-facts
-    bitmap bmp.
-clauses
-    new(bitmap Bmp):-
-        bmp = Bmp.
-clauses
-    getBitmap()=bmp.
-end implement recognizer
+predicates
+    toGray:().
+    setPixel:(integer X, integer Y).
+    goLine:(integer X, integer Y).
+    goImage:(integer Y).
+    toInt:(real R, unsigned N[out]).
+end interface grayScale

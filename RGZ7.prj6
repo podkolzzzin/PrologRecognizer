@@ -134,7 +134,7 @@ tmpsl("tgt",s("77",0,2,f("idp_154"),n(),n(),0,0,2)).
 tmpsl("tgt",s("78",0,2,f("idp_158"),n(),n(),0,0,2)).
 tmpsl("tgt",s("79",0,2,f("idp_159"),n(),n(),0,0,2)).
 tmpsl("tgt",s("80",0,2,f("idp_160"),n(),n(),0,0,2)).
-tmpsl("tgt",s("81",0,2,f("idp_162"),n(),n(),0,0,2)).
+tmpsl("tgt",s("82",0,2,f("idp_108"),n(),n(),0,0,2)).
 tmpsl("idp_75",s("AKO",0,13,el([e("pack","PROJECT.FKB")]),n(),sl([]),0,0,0)).
 tmpsl("idp_75",s("item",0,1,st("main.pack"),n(),st("rp(rct(0,0,0,0),1,1)"),0,0,1)).
 tmpsl("idp_75",s("attr",0,7,sl(["$(ProDir)pfc\\core.pack"]),m("pu",""),sl(["$(ProDir)pfc\\application\\Exe\\exe.ph","$(ProDir)pfc\\exception\\exception.pack"]),0,0,1)).
@@ -381,9 +381,9 @@ tmpsl("idp_159",s("attr",0,7,sl([]),m("pu",""),sl([]),0,0,1)).
 tmpsl("idp_160",s("AKO",0,13,el([e("pack","PROJECT.FKB")]),n(),sl([]),0,0,0)).
 tmpsl("idp_160",s("item",0,1,st("$(ProDir)pfc\\collection\\M\\queueM_fact\\queueM_fact.pack"),n(),st("rp(rct(0,0,0,0),1,1)"),0,0,1)).
 tmpsl("idp_160",s("attr",0,7,sl([]),m("pu",""),sl([]),0,0,1)).
-tmpsl("idp_162",s("AKO",0,13,el([e("pack","PROJECT.FKB")]),n(),sl([]),0,0,0)).
-tmpsl("idp_162",s("item",0,1,st("Recognizer\\Recognizer.pack"),n(),st("rp(rct(0,0,0,0),1,1)"),0,0,1)).
-tmpsl("idp_162",s("attr",0,7,sl(["$(ProDir)pfc\\core.pack"]),m("pu",""),sl(["$(ProDir)pfc\\exception\\exception.pack"]),0,0,1)).
+tmpsl("idp_108",s("AKO",0,13,el([e("pack","PROJECT.FKB")]),n(),sl([]),0,0,0)).
+tmpsl("idp_108",s("item",0,1,st("GrayScale\\GrayScale.pack"),n(),st("rp(rct(0,0,0,0),1,1)"),0,0,1)).
+tmpsl("idp_108",s("attr",0,7,sl(["$(ProDir)pfc\\core.pack"]),m("pu",""),sl(["$(ProDir)pfc\\exception\\exception.pack"]),0,0,1)).
 tmpsl("prj",s("OWN",0,12,e("status","prj"),n(),n(),0,0,0)).
 tmpsl("prj",s("sym",0,1,st(""),n(),sl([]),7,0,0)).
 tmpsl("prj",s("rul",0,1,st("pack->obj:$(Compiler) /L:R /L:I $(IncDir) /maxe:200 /maxw:1000 \"$**.pack\" /objectdir:\"$(ObjDir)\" /debugdir:\"$(ObjDir)\" /debug:full"),n(),sl([]),8,0,0)).
@@ -393,7 +393,7 @@ tmpsl("exprt",s("OWN",0,12,e("status","exprt"),n(),n(),0,0,0)).
 tmpsl("exprt",s("prj",0,1,st("RGZ7"),d(),sl([]),0,17,0)).
 tmpsl("exprt",s("tgt",0,8,il([1,0,0]),n(),sl(["Win32"]),0,0,0)).
 tmpsl("exprt",s("efile",0,1,st("rgz7.prj6"),m("pu",""),st("0"),0,0,1)).
-tmpsl("exprt",s("upd_dt",0,1,st("18:06:47-24.4.2014"),d(),sl([]),0,9,1)).
+tmpsl("exprt",s("upd_dt",0,1,st("22:21:06-24.4.2014"),d(),sl([]),0,9,1)).
 tmpsl("exprt",s("comp",0,1,st("My Company"),n(),sl([]),0,0,0)).
 tmpsl("exprt",s("vers",0,1,st("versioninfo_head(65536,0,65536,0,0,4,1,0)"),n(),sl([]),0,0,0)).
 tmpsl("exprt",s("auth",0,1,st("ADMIN\\podko_000"),n(),sl([]),0,0,0)).

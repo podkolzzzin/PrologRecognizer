@@ -6,5 +6,5 @@
 
 interface recognizer
     open core
-
+predicates
 end interface recognizer

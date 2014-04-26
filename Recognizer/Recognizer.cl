@@ -5,6 +5,7 @@
 ******************************************************************************/
 class recognizer : recognizer
     open core
-
+constructors
+    new:(bitmap Bmp).
 
 end class recognizer

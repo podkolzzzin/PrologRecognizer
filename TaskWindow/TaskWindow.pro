@@ -53,24 +53,24 @@ clauses
     !.
 
 predicates
-    onFileOpen : window::menuItemListener.
+    onFileOpen  : window::menuItemListener.
 clauses
     onFileOpen(_Source, _MenuTag):-
         stdio::write("OnFileOpen"),stdio::nl,
         Picture = vpi::pictLoad(@"Screenshot.bmp"),
         _ = gdiplus::startup(),
         Bmp = bitmap::createFromFile("Screenshot.bmp"),
-        C = Bmp:getPixel(0,0),
-        R = C:redPart,
-        G = C:greenPart,
-        B= C:bluePart,
-        stdio::writef("r=%d, g=%d, b=%d",R,G,B),stdio::nl,
+        Gray = grayScale::new(Bmp),
+                WGdi = getWindowGDI(),
+        Gray:toGray(),
 
-        WGdi = getWindowGDI(),
+
+
         Pnt = pnt(0,0),
+
         WGdi:pictDraw(Picture, Pnt,rop_SrcCopy).
 
-% This code is maintained automatically, do not update it manually. 18:44:45-24.4.2014
+% This code is maintained automatically, do not update it manually. 18:46:16-24.4.2014
 predicates
     generatedInitialize : ().
 clauses
